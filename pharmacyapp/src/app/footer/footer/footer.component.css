@@ -1,0 +1,17 @@
+.footer{
+    background-color: black;
+    color: white;
+    font-family:'Hind', Arial, Helvetica, sans-serif;
+    height:10%;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+}
+
+a{
+    color: #fff;
+}
