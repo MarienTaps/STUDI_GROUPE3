@@ -3,7 +3,7 @@
     color: white;
     font-family:'Hind', Arial, Helvetica, sans-serif;
     height:10%;
-    width:auto;
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
