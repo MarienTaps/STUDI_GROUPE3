@@ -7,6 +7,7 @@ import { PrestationsComponent } from './prestations/prestations/prestations.comp
 import { MarquesComponent } from './marques/marques/marques.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/accueil', pathMatch: 'full'},
   {path: 'accueil', title: 'Accueil', component: AccueilComponent },
   {path: 'contact', title: 'Contact', component: ContactComponent },
   {path: 'produits', title: 'Produits', component: ProduitsComponent },
