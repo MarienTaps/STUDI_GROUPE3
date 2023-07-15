@@ -1,0 +1,27 @@
+/* Style pour le formulaire */
+.page {
+  background-color: lightgrey;
+}
+form {
+  background-color: lightgrey;
+  max-width: 400px;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
