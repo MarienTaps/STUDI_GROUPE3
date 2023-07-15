@@ -8,7 +8,8 @@ import { PrestationsComponent } from './prestations/prestations/prestations.comp
 import { MarquesComponent } from './marques/marques/marques.component';
 
 const routes: Routes = [
-  {path: 'accueil', title: 'Accueil', component: AccueilComponent },
+  {path: '', redirectTo:'/Accueil', pathMatch:'full'},
+  {path: 'Accueil', title: 'Accueil', component: AccueilComponent },
   {path: 'contact', title: 'Contact', component: ContactComponent },
   {path: 'esperience', title: 'Experience', component: EsperienceComponent },
   {path: 'produits', title: 'Produits', component: ProduitsComponent },
