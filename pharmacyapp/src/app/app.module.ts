@@ -19,6 +19,7 @@ import { SpagyrieComponent } from './produits/produits/spagyrie/spagyrie.compone
 import { MaquillageComponent } from './produits/produits/maquillage/maquillage.component';
 import { PhytotherapieComponent } from './produits/produits/phytotherapie/phytotherapie.component';
 import { HomeopathieComponent } from './produits/produits/homeopathie/homeopathie.component';
+import { ContactformComponent } from './contactform/contactform.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { HomeopathieComponent } from './produits/produits/homeopathie/homeopathi
     SpagyrieComponent,
     MaquillageComponent,
     PhytotherapieComponent,
-    HomeopathieComponent
+    HomeopathieComponent,
+    ContactformComponent
   ],
   imports: [
     BrowserModule,

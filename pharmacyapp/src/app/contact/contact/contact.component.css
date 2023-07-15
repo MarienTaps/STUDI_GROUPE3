@@ -1,0 +1,20 @@
+
+.page {
+  background-color: lightgrey;
+height: 100vhvh;
+width: 95vw;
+} 
+h1 {
+  text-align: center;
+}
+.col-1 {
+  height: 20%;
+}
+td {
+  font-size: large;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
