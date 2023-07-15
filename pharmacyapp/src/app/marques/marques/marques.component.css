@@ -1,0 +1,19 @@
+.page {
+  background-color: lightgrey;
+  height: 71vh;
+}
+h1 {
+  text-align: center;
+}
+.images {
+  width: 16.6%;
+  height: 240px;
+  border-width: 2px;
+  border: solid;
+  
+  
+}
+.img {
+  border-width: 0;
+  object-fit: contain;
+}
