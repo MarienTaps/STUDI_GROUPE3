@@ -1,9 +1,39 @@
 <header class="header">
+  <div class="head1 container-fluid row justify-content-around">
+    <div class="logo">
+      <img src="../assets/Images/Logo1.jpg" alt="Logo"/>
+      <h1> PHARMACIE DE LA MAIRIE </h1>
+    </div>
+  
+    <div class="input-search">
+      <span class="material-symbols-outlined">
+        search
+        </span>
+      <input type="search" placeholder="  Rechercher un produit">
+    </div>
+  
+    <div class="form-lang">
+      <form action="#">
+        <label class="langue" for="langue"></label>
+        <select name="langues" id="lang">
+          <option value="français">Français</option>
+          <option value="anglais">Anglais</option>
+          <option value="allemand">Allemand</option>
+        </select>
+      </form>
+    </div>
 
-  <div class="logo">
-    <img src="../assets/Images/Logo1.jpg" alt="Logo"/>
-    <h1> PHARMACIE DE LA MAIRIE </h1>
-  </div>
+    <div class="input-search2">
+      <span class="material-symbols-outlined">
+        search
+        </span>
+      <input type="search" placeholder="  Rechercher un produit">
+    </div>
+    <div class="burger container-fluid">
+      <img class="img img-burger" src="assets/Images/burger.png"/>
+    </div>
+  </div>  
+ 
   <div class="input-search">
     <span class="material-symbols-outlined">
       search
@@ -27,7 +57,7 @@
       </select>
     </form>
   </div>
-
+ <div class="head2 container-fluid row mt-3">
   <div class="nav">
     <nav>
       <ul class="justify-content-around">
@@ -39,6 +69,8 @@
         <li><a routerLink="/marques" routerLinkActive="active" ariaCurrentWhenActive="page">Marques</a></li>
       </ul>
     </nav>
+
+  </div>
   </div>
 
 </header>

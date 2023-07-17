@@ -1,19 +1,19 @@
 /* Style pour le formulaire */
 .page {
   background-color: lightgrey;
+  width: 100vw;
+  height: 50vh;
 }
 form {
   background-color: lightgrey;
-  max-width: 400px;
-  margin: 20px auto;
-}
-h1 {
-  text-align: center;
+  max-width: 40vw;
+  margin: 1vh auto;
+  font-size: 3vh;
 }
 input[type="text"], input[type="email"], input[type="tel"] {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 input[type="submit"] {
@@ -24,4 +24,22 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 8vh;
+}
+.btn {
+  margin: 1vh;
+  font-size: 1.5vw;
+}
+/* Nouvelles règles si la fenêtre est en mode portrait */
+@media screen and (orientation: portrait) {
+  .btn {
+    margin: 1vh;
+    font-size: 4vw;
+  
+    
+  ;
+  }
 }

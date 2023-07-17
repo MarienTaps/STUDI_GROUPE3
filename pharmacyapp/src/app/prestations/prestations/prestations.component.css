@@ -1,11 +1,11 @@
 
 .page {
   background-color: lightgrey;
-  height: 100%;
   width:100vw;
 }
 h1 {
   text-align: center;
+  height: 10vh;
 }
 .container-fluid {
   background-color: lightgray;
@@ -17,28 +17,87 @@ h1 {
   border: 1px solid #ccc;
 }
 .images {
-  height: 100%;
-  width: 100%;
-  
-}
-.image {
-  height: 100%;
-  width: 100%;
+  height: 40vh;
 }
 img {
   align-items: center;
   height: 100%;
   width: 100%;
 }
-.img-fluid {
-  width: 100%;
+p {
+  text-align: center;
 }
-h1 {
-  height: 10%;
+/* Nouvelles règles si la fenêtre fait au plus 1920px de large */
+@media screen and (max-width: 1920px) {
+  h1 {
+    height: 10vh;
+  }
+ img {
+    height: 100%;
+    width: 100%;
+  }
+  p {
+    font-size: 30px;
+    margin: 5px;
+  }
 }
-.contenu {
-  height: 100;
-}
-.annonce {
-height: 30%;
+/* Nouvelles règles si la fenêtre fait au plus 1200px de large */
+@media screen and (max-width: 1200px) {
+  h1 {
+    height: 5vh;
+  }
+  .images {
+    height: 40vh;
+  }
+  p {
+    font-size: 26px;
+  }
+}/* Nouvelles règles si la fenêtre fait au plus 992px de large */
+@media screen and (max-width: 992px) {
+  h1 {
+    height: 3vh;
+  }
+  .images {
+    height: 40vh;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px;
+  }
+}/* Nouvelles règles si la fenêtre fait au plus 768px de large */
+@media screen and (max-width: 768px) {
+  h1 {
+    height: 2vh;
+  }
+  .images {
+    height: 45vh;
+  }
+  img {
+    height: 34vh
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 360px) {
+  h1 {
+    height: 1vh;
+  }
+  .images {
+    height: 48vh;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
 }
