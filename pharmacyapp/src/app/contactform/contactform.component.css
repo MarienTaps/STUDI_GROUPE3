@@ -25,3 +25,6 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
 }
+textarea{
+  width: 100%;
+}

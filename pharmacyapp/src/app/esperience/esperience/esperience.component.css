@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px;
+}
+.img1{
+    float: left;
+    width: 350px;
+    height: 250px;
+    padding-right: 10px;
+}
+.img2{
+    float: right;
+    width: 350px;
+    height: 250px;
+    padding-left: 10px;
+}
+article{
+
+}
