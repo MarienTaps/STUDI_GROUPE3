@@ -20,6 +20,10 @@ import { MaquillageComponent } from './produits/produits/maquillage/maquillage.c
 import { PhytotherapieComponent } from './produits/produits/phytotherapie/phytotherapie.component';
 import { HomeopathieComponent } from './produits/produits/homeopathie/homeopathie.component';
 import { ContactformComponent } from './contactform/contactform.component';
+import { ConditionsComponent } from './conditions/conditions.component';
+import { MentionsComponent } from './mentions/mentions.component';
+import { CookiesComponent } from './cookies/cookies.component';
+import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { ContactformComponent } from './contactform/contactform.component';
     MaquillageComponent,
     PhytotherapieComponent,
     HomeopathieComponent,
-    ContactformComponent
+    ContactformComponent,
+    ConditionsComponent,
+    MentionsComponent,
+    CookiesComponent,
+    ContactezNousComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,61 @@
 .page {
   background-color: lightgrey;
-  height: 71vh;
+  width: 100vw;
 }
 h1 {
   text-align: center;
+  margin-bottom: 5vh;
+  font-size: 8vh;
+}
+.contenu1 {
+  display: none;
 }
 .images {
-  width: 16.6%;
-  height: 240px;
   border-width: 2px;
   border: solid;
-  
-  
+  width: 16vw;
+  height: 25vh;
 }
 .img {
   border-width: 0;
   object-fit: contain;
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 1920px) {
+
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 1200px) {
+  
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 992px) {
+  
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 768px) {
+  
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (max-width: 360px) {
+ 
+}
+@media screen and (orientation: portrait) {
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+  }
+  .contenu {
+    display: none;
+  }.contenu1 {
+    display: flex;
+  }
+  .images {
+    border-width: 2px;
+    border: solid;
+    
+    height: 14vh;
+  }
 }
