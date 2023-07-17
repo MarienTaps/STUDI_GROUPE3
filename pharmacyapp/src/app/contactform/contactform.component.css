@@ -25,21 +25,5 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
 }
-h1 {
-  text-align: center;
-  font-size: 8vh;
-}
-.btn {
-  margin: 1vh;
-  font-size: 1.5vw;
-}
-/* Nouvelles règles si la fenêtre est en mode portrait */
-@media screen and (orientation: portrait) {
-  .btn {
-    margin: 1vh;
-    font-size: 4vw;
-  
-    
-  ;
-  }
+
 }
