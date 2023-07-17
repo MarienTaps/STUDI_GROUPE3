@@ -1,10 +1,14 @@
 
-<section class="Slide">
-    <span class="material-symbols-outlined">
-        arrow_back_ios
-        </span>
-    <img src="../assets/Images/Image1.jpg" alt="Image promotionnelle">
-    <span class="material-symbols-outlined">
-        arrow_forward_ios
-        </span>
+<section class="Slide" role="listbox">
+    <button class="material-symbols-outlined" (click)='getPrev()'>
+        <span> arrow_back_ios </span>
+    </button>
+    <img src="{{ getSlide() }}" alt="Image promo">
+    <button class="material-symbols-outlined" (click)='getNext()'>
+        <span> arrow_forward_ios </span>
+    </button>
 </section>
+
+  
+ 
+  
