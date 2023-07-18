@@ -214,9 +214,7 @@ label{
     .logo{
         margin-right: 10px;
     }
-    .logo img{
     
-    }
     .logo h1{
         margin-right: 1px;
         margin-top:20px;
@@ -377,6 +375,6 @@ label{
     ul{
         font-size: 8px; 
         font-weight: bolder;
-        margin-t
-    label{
-        font-size:
+        
+    }    
+}
