@@ -23,7 +23,7 @@ import { ContactformComponent } from './contactform/contactform.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { MentionsComponent } from './mentions/mentions.component';
 import { CookiesComponent } from './cookies/cookies.component';
-import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -46,12 +46,12 @@ import { ContactezNousComponent } from './contactez-nous/contactez-nous.componen
     ContactformComponent,
     ConditionsComponent,
     MentionsComponent,
-    CookiesComponent,
-    ContactezNousComponent
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
