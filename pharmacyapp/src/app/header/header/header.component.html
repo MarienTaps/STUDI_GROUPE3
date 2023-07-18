@@ -1,76 +1,97 @@
-<header class="header">
-  <div class="head1 container-fluid row justify-content-around">
-    <div class="logo">
-      <img src="../assets/Images/Logo1.jpg" alt="Logo"/>
-      <h1> PHARMACIE DE LA MAIRIE </h1>
-    </div>
-  
-    <div class="input-search">
-      <span class="material-symbols-outlined">
-        search
-        </span>
-      <input type="search" placeholder="  Rechercher un produit">
-    </div>
-  
-    <div class="form-lang">
-      <form action="#">
-        <label class="langue" for="langue"></label>
-        <select name="langues" id="lang">
-          <option value="français">Français</option>
-          <option value="anglais">Anglais</option>
-          <option value="allemand">Allemand</option>
-        </select>
-      </form>
-    </div>
-
-    <div class="input-search2">
-      <span class="material-symbols-outlined">
-        search
-        </span>
-      <input type="search" placeholder="  Rechercher un produit">
-    </div>
-    <div class="burger container-fluid">
-      <img class="img img-burger" src="assets/Images/burger.png"/>
-    </div>
-  </div>  
- 
-  <div class="input-search">
-    <span class="material-symbols-outlined">
-      search
-      </span>
-    <input type="search" placeholder="Rechercher un produit">
+<div class="paysage">
+  <div class="header container-fluid row justify-content-around">
+      <div class="logo">
+        <img src="../assets/Images/Logo1.jpg" alt="Logo"/>
+        <h1> PHARMACIE DE LA MAIRIE </h1>
+      </div>
+      <div class="input-search">
+        <span class="material-symbols-outlined">
+          search
+          </span>
+        <input type="search" placeholder="Rechercher un produit">
+      </div>
+      <div class="form-lang">
+        <form action="#">
+          <label for="langue">Langue: </label>
+          <select name="langues" id="lang">
+            <option value="francais">
+              Francais 🇫🇷 
+            </option>
+            <option value="anglais">
+              Anglais 🇬🇧
+            </option>
+            <option value="allemand">
+              Allemand 🇩🇪
+            </option>
+          </select>
+        </form>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul class="justify-content-around">
+            <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Accueil</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a></li>
+            <li><a routerLink="/esperience" routerLinkActive="active" ariaCurrentWhenActive="page">Expériences et histoire</a></li>
+            <li><a routerLink="/produits" routerLinkActive="active" ariaCurrentWhenActive="page">Produits</a></li>
+            <li><a routerLink="/prestations" routerLinkActive="active" ariaCurrentWhenActive="page">Prestations</a></li>
+            <li><a routerLink="/marques" routerLinkActive="active" ariaCurrentWhenActive="page">Marques</a></li>
+          </ul>
+        </nav>
+      </div>
   </div>
+</div>
+<div class="portrait">
+  <div class="header">
+    <div class="header1 container-fluid row justify-content-start">
+      <div class="head1 col-10 container-fluid row ">
+        <div class="logo container-fluid row ">
+          <img src="../assets/Images/Logo1.jpg" alt="Logo"/>
+          <h1> PHARMACIE DE LA MAIRIE </h1>
+        </div>
+        <br>
+        <div class="container row m-0 p-0">
+          <div class="input-search">
+            <span class="material-symbols-outlined loupe">search</span>
+            <input class="recherche" type="search" placeholder="   Rechercher un produit">
+          </div>
+          
+          <div class="form-lang">
+            <form action="#">
+              <select name="langues" id="lang">
+                <option value="francais">
+                  Francais 🇫🇷 
+                </option>
+                <option value="anglais">
+                  Anglais 🇬🇧
+                </option>
+                <option value="allemand">
+                  Allemand 🇩🇪
+                </option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="head2 col-2 m-0 ">
+        <div class="burger container-fluid m-2" >
+          <img class="img img-burger" src="assets/Images/burger.png" (click)="openMenu()" *ngIf="burgerOpen"/>
+          <nav (click)="testy" *ngIf="menuOpen">
+            <div class="bordnav d-flex flex-column align-item-start m-1 bg-primary" >
+              <div class="d-flex flex-column align-item-start m-1">
 
-  <div class="form-lang">
-    <form action="#">
-      <label for="langue">Langue: </label>
-      <select name="langues" id="lang">
-        <option value="francais">
-          Francais 🇫🇷 
-        </option>
-        <option value="anglais">
-          Anglais 🇬🇧
-        </option>
-        <option value="allemand">
-          Allemand 🇩🇪
-        </option>
-      </select>
-    </form>
+                <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Accueil</a>
+                <a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Contact</a>
+                <a routerLink="/esperience" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Histoire</a>
+                <a routerLink="/produits" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Produits</a>
+                <a routerLink="/prestations" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Prestations</a>
+                <a routerLink="/marques" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="openMenu()">Marques</a>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
   </div>
- <div class="head2 container-fluid row mt-3">
-  <div class="nav">
-    <nav>
-      <ul class="justify-content-around">
-        <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Accueil</a></li>
-        <li><a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a></li>
-        <li><a routerLink="/esperience" routerLinkActive="active" ariaCurrentWhenActive="page">Expériences et histoire</a></li>
-        <li><a routerLink="/produits" routerLinkActive="active" ariaCurrentWhenActive="page">Produits</a></li>
-        <li><a routerLink="/prestations" routerLinkActive="active" ariaCurrentWhenActive="page">Prestations</a></li>
-        <li><a routerLink="/marques" routerLinkActive="active" ariaCurrentWhenActive="page">Marques</a></li>
-      </ul>
-    </nav>
+</div>
 
-  </div>
-  </div>
-
-</header>
