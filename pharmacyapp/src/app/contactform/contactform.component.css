@@ -4,6 +4,9 @@
   width: 100vw;
   height: 50vh;
 }
+h1 {
+  text-align: center;
+}
 form {
   background-color: lightgrey;
   max-width: 40vw;
@@ -25,4 +28,12 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
 }
-
+.btn {
+  font-size: smaller;
+  
+}
+/* Nouvelles règles si la fenêtre est en orientation portrait */
+@media screen and (orientation: portrait) {}
+button {
+  font-size: 3vw;
+}

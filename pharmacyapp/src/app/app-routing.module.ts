@@ -36,7 +36,7 @@ const routes: Routes = [
   {path: 'vente', title: 'Vente libre', component :VenteComponent },
   {path: 'maquillage', title: 'Maquillages', component :MaquillageComponent },
   {path: 'homeopathie', title: 'Homeopathie', component :HomeopathieComponent },
-  {path: 'phytotherapie', title: 'Phytotherapie', component :PhytotherapieComponent
+  {path: 'phytotherapie', title: 'Phytotherapie', component :PhytotherapieComponent},
   {path: 'cookies', title: 'Cookies', component: CookiesComponent },
   
   {path: 'mentions', title: 'Mentions', component: MentionsComponent},

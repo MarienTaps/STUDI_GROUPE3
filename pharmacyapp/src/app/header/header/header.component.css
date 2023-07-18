@@ -33,7 +33,7 @@
 }
 .input-search{
     margin-right: 2vg;
-    margin-top: 3vh;
+    margin-top: 2.5vh;
 }
 .material-symbols-outlined{
     position: relative;
@@ -48,18 +48,18 @@
     border-radius: 8px;
     box-shadow: none;
     text-align: center;
-    font-size: 4vh;
+    font-size: 2vh;
     border: 1px solid grey;
 }
 .form-lang{
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 1.5vh;
     font-size: 4vh;
 }
 #lang{
     width:150px;
     height: 35px;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .select {
     font-size: 5vh;
@@ -129,13 +129,13 @@ label{
         width: 25vw;
         height: 4vh;
         border-radius: 8px;
-        font-size: 26px;
+        font-size: 3vh;
         border: 1px solid grey;
     }
     .form-lang{
         margin-right: 1px;
-        margin-top: 20px;
-        font-size: 2cqi;
+        margin-top: 1vh;
+        font-size: 2vh;
     }
     #lang{
         width:10vw;
@@ -174,6 +174,7 @@ label{
     .input-search{
         margin-right: 10px;
         margin-top: 15px;
+        font-size: 3vh;
     }
     .material-symbols-outlined{
         right: -30px;
@@ -183,7 +184,7 @@ label{
         width: 25vw;
         height: 5vh;
         border-radius: 8px;
-        font-size: 24px;
+        font-size: 3VH;
         border: 1px solid grey;
     }
     .form-lang{
@@ -193,7 +194,7 @@ label{
     #lang{
         width:150px;
         height: 35px;
-        font-size: 24px;
+        font-size: 3vh;
     }
     .nav{
         height: 7vh;
@@ -241,6 +242,7 @@ label{
         margin-right: 1px;
         margin-left: 30px;
         margin-top: 12px;
+        font-size: 2vh;
     }
     #lang{
         width:15vw;
@@ -286,17 +288,18 @@ label{
         width: 30vw;
         height: 4vh;
         border-radius: 8px;
-        font-size: 16px;
+        font-size: 3vh;
         border: 1px solid grey;
     }
     .form-lang{
         margin-right: 1px;
         margin-top: 12px;
+        font-size: 2vh;
     }
     #lang{
         width: vw;
         height: 5vh;
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .nav{
         height: 7vh;
@@ -309,7 +312,7 @@ label{
         }
 }
 
-/* Nouvelles rÃ¨gles si la fenÃªtre est en mode portrait */
+/* Nouvelles règles si la fenÃªtre est en mode portrait */
 @media screen  and (orientation: portrait){
     .portrait {
         display: flex;
@@ -319,7 +322,7 @@ label{
     }
     .header{
         margin-bottom: 0vh;
-        height: 14vh;
+        height: 15vh;
     }
     .head1 {
         margin-left: 1px;
@@ -352,7 +355,7 @@ label{
     .material-symbols-outlined {
         right: -15px;
         top: 3px;
-        font-size: 15px;
+        font-size: 3vh;
     }
     .input-search input{
         width: 35vw;
@@ -389,10 +392,11 @@ label{
         margin: 1px;
         background-color: blue;
         
-        margin-top: 1vh;
+        margin-top: -2vh;
+        margin-left: -2vh;
     }
     a {
-        font-size: 9px; 
+        font-size: 1.5vh; 
         font-weight: bolder;
 
         margin-top:1px ;
