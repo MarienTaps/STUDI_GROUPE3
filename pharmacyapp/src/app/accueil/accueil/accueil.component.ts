@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './accueil.component.html',
   styleUrls: ['./accueil.component.css']
 })
+
 export class AccueilComponent  {
 
  slides: string [] = ['./assets/Images/images.jpg', './assets/Images/Image1.jpg', './assets/Images/image2.jpg', './assets/Images/image3.jpg'];

@@ -14,6 +14,11 @@ import { MaquillageComponent } from './produits/produits/maquillage/maquillage.c
 import { HomeopathieComponent } from './produits/produits/homeopathie/homeopathie.component';
 import { PhytotherapieComponent } from './produits/produits/phytotherapie/phytotherapie.component';
 import { EsperienceComponent } from './esperience/esperience/esperience.component';
+
+import { CookiesComponent } from './cookies/cookies.component';
+import { MentionsComponent } from './mentions/mentions.component';
+
+
 import { ConditionsComponent } from './conditions/conditions.component';
 
 const routes: Routes = [
@@ -31,8 +36,13 @@ const routes: Routes = [
   {path: 'vente', title: 'Vente libre', component :VenteComponent },
   {path: 'maquillage', title: 'Maquillages', component :MaquillageComponent },
   {path: 'homeopathie', title: 'Homeopathie', component :HomeopathieComponent },
-  {path: 'phytotherapie', title: 'Phytotherapie', component :PhytotherapieComponent },
-  {path: 'conditions', title: 'Conditions générales de vente', component :ConditionsComponent }
+  {path: 'phytotherapie', title: 'Phytotherapie', component :PhytotherapieComponent
+  {path: 'cookies', title: 'Cookies', component: CookiesComponent },
+  
+  {path: 'mentions', title: 'Mentions', component: MentionsComponent},
+  
+
+  {path: 'conditions', title: 'Conditions générales de vente', component :ConditionsComponent}
 ];
 
 @NgModule({
