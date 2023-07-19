@@ -1,0 +1,31 @@
+div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #d9d9d9;
+    font-family:'Hind', Arial, Helvetica, sans-serif;
+    color:rgb(5, 90, 5);
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    margin-top:3rem;
+    margin-bottom:0;
+}
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom:5rem;
+}
+
+a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top:5rem;
+    margin-bottom:7rem;   
+} 
