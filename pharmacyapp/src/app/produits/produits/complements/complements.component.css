@@ -28,10 +28,7 @@ img{
     height: 130px;
 }
 
-.navbar{
-       
-    
-}
+
 nav ul{
     display: flex;
 
@@ -101,4 +98,7 @@ fieldset{
 }
 legend{
     text-align: center;
+}
+.item3{
+    margin: 50px;
 }

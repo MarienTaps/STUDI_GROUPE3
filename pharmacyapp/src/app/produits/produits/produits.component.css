@@ -94,7 +94,16 @@ a{
 fieldset{
     height: 320px;
     width: 255px;
+
 }
 legend{
     text-align: center;
+}
+.items3{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.items4{
+    
+    margin-bottom: 80px;
 }
