@@ -13,8 +13,8 @@
       <div class="form-lang">
         <form action="#">
           <label for="langue">Langue: </label>
-          <select name="langues" id="lang">
-            <option value="francais">
+          <select name="langues" id="lang"  >
+            <option value="francais" (click)="clickFr()">
               Francais 🇫🇷 
             </option>
             <option value="anglais">
@@ -56,9 +56,9 @@
           </div>
           
           <div class="form-lang">
-            <form action="#">
-              <select name="langues" id="lang">
-                <option value="francais">
+            <form action="#" (click)="clickFr()">
+              <select name="langues" id="lang" (click)="clickFr()">
+                <option value="francais" (click)="clickFr()">
                   Francais 🇫🇷 
                 </option>
                 <option value="anglais">
@@ -75,7 +75,7 @@
       <div class="head2 col-2 m-0 ">
         <div class="burger container-fluid m-2" >
           <img class="img img-burger" src="assets/Images/burger.png" (click)="openMenu()" *ngIf="burgerOpen"/>
-          <nav (click)="testy" *ngIf="menuOpen">
+          <nav *ngIf="menuOpen">
             <div class="bordnav d-flex flex-column align-item-start m-1 bg-primary" >
               <div class="d-flex flex-column align-item-start m-1">
 

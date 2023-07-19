@@ -6,14 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
- 
+  sel3: string = "";
   menuOpen: boolean = false;
   burgerOpen: boolean =true;
   openMenu() {
     this.menuOpen = !this.menuOpen;
     this.burgerOpen = !this.menuOpen;
   }
-  testy() {
-    alert("test")
+  langFr: boolean = true;
+  langGb: boolean = false;
+  langDe: boolean = false;
+  clickFr() {
+    alert("Fr")
   }
 }
