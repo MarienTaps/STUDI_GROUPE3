@@ -14,8 +14,6 @@ h1{
    color: rgb(0, 0, 0);
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
-    
-
 }
 
 .section {
@@ -23,20 +21,24 @@ h1{
     justify-content: space-between;
 }
 
-img{
-    width: 150px;
-    height: 130px;
+.img2{
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    margin: 80px;
 }
 
-.navbar{
-       
-    
+.img1{
+    width: 800px;
+    height: 1000px;
+    padding: 50px;
+    margin: 20px;
 }
+
 nav ul{
     display: flex;
 
-    
-    
+       
 }
 ul{
     list-style: none;
@@ -45,12 +47,9 @@ ul{
 
 li{
         
-    display: inline-block;
-    list-style: none;
+       
     justify-content: space-between;
     margin: 20px 20px 20px;
-
-    
 
 }
 a{
@@ -87,17 +86,34 @@ a{
     width: 250px;
 
 
-
 }
 .produit{
     margin: 70px; ;
     
  
 }
-fieldset{
-    height: 320px;
-    width: 255px;
-}
+
 legend{
     text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+.conseil{
+    display: inline-block;
+    align-content: center;
+    
+}
+
+fieldset{
+    border: solid blue;
+    margin: 50px;
+    width: 800px;
+}
+.conseil{
+    display: flex;
+}
+p{
+    margin: 15px;
 }
