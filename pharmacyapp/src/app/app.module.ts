@@ -24,7 +24,8 @@ import { ContactformComponent } from './contactform/contactform.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { MentionsComponent } from './mentions/mentions.component';
 import { CookiesComponent } from './cookies/cookies.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { ErrorComponent } from './error/error.component'
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { FormsModule } from '@angular/forms'
     ContactformComponent,
     ConditionsComponent,
     MentionsComponent,
-    CookiesComponent
+    CookiesComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
