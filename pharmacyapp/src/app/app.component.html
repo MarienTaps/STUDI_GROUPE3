@@ -1,13 +1,27 @@
 
 <div class="site">
-  <div class="header">
+  <div class="header"  *ngIf=" cookieDisplay==false">
     <app-header></app-header>
   </div>
 
   <div class="page">
     <router-outlet></router-outlet>
   </div>
-  <div class="footer">
+  <div class="cookie m-1" *ngIf="cookieDisplay">
+    <h2>Nous utilisons des cookies</h2>
+    <p class="m-0">Nous utilisons des cookies, tout comme nos partenaires commerciaux, afin de collecter des informations sur vous à des fins diverses, notamment :</p>
+    <p class="m-0">- Fonctionnel</p>
+    <p class="m-0">- Statistique</p>
+    <p class="m-0">- Publicitaire</p>
+    <p class="m-0">En cliquant sur « OK », vous donnez votre consentement à toutes les fins énoncées. Vous pouvez également choisir de spécifier les finalités auxquelles vous souhaitez donner votre consentement. Pour ce faire, il vous suffit de cocher la case située à côté de la finalité et d’appuyer sur « Enregistrer les paramètres ».
+       Vous pouvez à tout moment révoquer votre consentement en cliquant sur la petite icône située dans le coin inférieur gauche du site Internet.
+    </p>
+    <div class="container-fluid row justify-content-center">
+      <button class="btn container-fluid col-2 btn-dark mr-2 mt-3" (click)="okCookie()">OK</button>
+      <button class="btn container-fluid col-2 btn-dark ml-2 mt-3" (click)="denyCookie()">REFUSER</button>
+    </div>
+  </div>
+  <div class="footer"  *ngIf=" cookieDisplay==false">
     <app-footer></app-footer>
   </div>
 </div>

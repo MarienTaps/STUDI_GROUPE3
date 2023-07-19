@@ -47,7 +47,7 @@ a{
         font-size: 14px;
     }
 }
-/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+/* Nouvelles règles si la fenêtre est en orientation portrait */
 @media screen and (orientation: portrait) {
     .footer{
        margin: 0;
