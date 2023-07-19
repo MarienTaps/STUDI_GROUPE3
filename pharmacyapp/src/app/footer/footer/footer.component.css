@@ -48,7 +48,7 @@ a{
     }
 }
 /* Nouvelles règles si la fenêtre fait au plus 360px de large */
-@media screen and (max-width: 360px) {
+@media screen and (orientation: portrait) {
     .footer{
        margin: 0;
         font-size: 9px;

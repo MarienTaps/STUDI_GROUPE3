@@ -1,14 +1,19 @@
 
 .page {
   background-color: lightgrey;
-  height: 50vh;
+  height: 40vh;
   width: 95%;
 } 
+
 h1 {
   text-align: center;
+  font-size: 5vh;
 }
 td {
-  font-size: large;
+  font-size: 3.5vh;
+}
+.contenu {
+  margin-top: 4vh;
 }
 .container {
   display: flex;
@@ -16,69 +21,26 @@ td {
   justify-content: center;
 }
 button {
+  margin-top: 4vh;
   width: 20vw;
   height: 8vh;
+  font-size: 4vh;
 }
 /* Nouvelles règles si la fenêtre fait au plus 1920px de large */
 @media screen and (max-width: 1920px) {
-  h1 {
-    font-size: 80px;
-    margin-bottom: 40px;
-  }
-  td {
-    font-size: 50px;
-  }
-  button {
-    width: 20vw;
-    height: 8vh;
-    font-size: 36px;
-    margin-top: 40px;
-  }
 }
 /* Nouvelles règles si la fenêtre fait au plus 1200px de large */
 @media screen and (max-width: 1200px) {
-  h1 {
-    font-size: 80px;
-    margin-bottom: 40px;
-  }
-  td {
-    font-size: 30px;
-  }
-  button {
-    font-size: 30px;
-    margin-top: 40px;
-  }
 }
 /* Nouvelles règles si la fenêtre fait au plus 992px de large */
 @media screen and (max-width: 992px) {
-  h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-  }
-  td {
-    font-size: 20px;
-  }
-  button {
-    font-size: 20px;
-    margin-top: 10px;
-  }
 }
 /* Nouvelles règles si la fenêtre fait au plus 768px de large */
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-  }
-  td {
-    font-size: 24px;
-  }
-  button {
-    font-size: 20px;
-    margin-top: 10px;
-  }
+  
 }
 /* Nouvelles règles si la fenêtre fait au plus 360px de large */
-@media screen and (max-width: 360px) {
+@media screen and (orientation: portrait) {
   .page {
     width: 100vw;
     height: 76vh;
