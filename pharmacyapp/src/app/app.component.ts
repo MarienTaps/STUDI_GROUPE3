@@ -29,8 +29,9 @@ export class AppComponent implements OnInit {
   }
   //Cookies accepted
   okCookie (): void {
-    this.cookieService.set('studi-groupe3', 'ok');
-    this.cookieService.set('date', Date());
+    const dateNow = new Date();
+  dateNow.setDate(dateNow.getDate() + 180);
+    this.cookieService.set('studi-groupe3', 'ok', dateNow);
     this.cookieDisplay=false;
   }
   //cookies refused
